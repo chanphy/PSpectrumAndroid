@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_left_reight"
+    android:paddingRight="@dimen/spacing_left_reight">
+
+
+    <com.cpigeon.book.widget.LineInputListLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.cpigeon.book.widget.LineInputView
+            android:id="@+id/modify_original_psd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineInputView_Hint="请输入原密码"
+            app:lineInputView_IsCanEdit="true"
+            app:lineInputView_IsLeft="true"
+            app:lineInputView_IsNotNull="true"
+            app:lineInputView_LeftString="输入原密码"
+            app:lineInputView_isShowRightImage="gone" />
+
+        <com.cpigeon.book.widget.LineInputView
+            android:id="@+id/modify_new_psd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineInputView_Hint="由6到16位字母和数字组成"
+            app:lineInputView_IsCanEdit="true"
+            app:lineInputView_IsLeft="true"
+            app:lineInputView_IsNotNull="true"
+            app:lineInputView_LeftString="输入新密码"
+            app:lineInputView_isShowRightImage="gone" />
+
+
+        <com.cpigeon.book.widget.LineInputView
+            android:id="@+id/modify_new_psd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineInputView_Hint="请再次确认新密码"
+            app:lineInputView_IsCanEdit="true"
+            app:lineInputView_IsLeft="true"
+            app:lineInputView_IsNotNull="true"
+            app:lineInputView_LeftString="确定新密码"
+            app:lineInputView_isShowRightImage="gone" />
+
+    </com.cpigeon.book.widget.LineInputListLayout>
+
+
+    <com.cpigeon.book.widget.LineInputListLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.cpigeon.book.widget.LineInputView
+            android:id="@+id/ll2_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineInputView_Hint="请输入11位手机号"
+            app:lineInputView_IsCanEdit="true"
+            app:lineInputView_IsLeft="true"
+            app:lineInputView_IsNotNull="true"
+            app:lineInputView_LeftString="输入手机号"
+            app:lineInputView_isShowRightImage="gone" />
+
+
+        <!--输入验证码-->
+        <LinearLayout
+            android:id="@+id/ll_share_txgp"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/tvLeft"
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="输入验证码"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/small_text_size_2" />
+
+
+            <EditText
+                android:textColorHint="@color/color_text_hint"
+                android:id="@+id/et_imgVerCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入右边验证码"
+                android:textSize="@dimen/medium_text_size" />
+
+            <ImageView
+                android:id="@+id/img_verCode"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:background="@drawable/shape_bg_corner_3_solid_gray"
+                android:scaleType="fitXY" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_line_view_layout" />
+
+
+        <!--输入手机验证码-->
+        <LinearLayout
+            android:id="@+id/ll2_input_phone_ver_code"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="获取验证码"
+                android:textColor="@color/color_4c4c4c"
+                android:textSize="@dimen/small_text_size_2" />
+
+
+            <EditText
+                android:textColorHint="@color/color_text_hint"
+                android:id="@+id/et_phoneVerCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入手机验证码"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:id="@+id/tv_ver_code"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/shape_bg_corner_3_solid_blue"
+                android:gravity="center"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="获取短信验证码"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+        <include layout="@layout/include_line_view_layout" />
+
+
+        <com.cpigeon.book.widget.LineInputView
+            android:id="@+id/ll2_input_new_psd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineInputView_Hint="由6到16位字母和数字组成"
+            app:lineInputView_IsCanEdit="true"
+            app:lineInputView_IsLeft="true"
+            app:lineInputView_IsNotNull="true"
+            app:lineInputView_LeftString="设置新密码"
+            app:lineInputView_isShowRightImage="gone" />
+
+    </com.cpigeon.book.widget.LineInputListLayout>
+
+
+    <TextView
+        android:id="@+id/tv_next_step"
+        style="@style/bottom_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/spacing_left_reight"
+        android:text="@string/btn_sure_modify" />
+
+
+</RelativeLayout>

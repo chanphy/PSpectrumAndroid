@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llTabViews"
+        android:background="@mipmap/ic_home_bg_bottom"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.cpigeon.book.widget.SimpleTitleView
+            android:id="@+id/simple1"
+            app:simpleTitleView_PressTextColor="@color/black"
+            app:simpleTitleView_DefaultTextColor="@color/black"
+            app:simpleTitleView_image_size="24dp"
+            app:simpleTitleView_text_size="10dp"
+            app:simpleTitleView_image="@mipmap/ic_home"
+            app:simpleTitleView_press_image="@mipmap/ic_home_select"
+            app:simpleTitleView_text="@string/text_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <com.cpigeon.book.widget.SimpleTitleView
+            android:id="@+id/simple2"
+            android:layout_width="0dp"
+            app:simpleTitleView_PressTextColor="@color/black"
+            app:simpleTitleView_DefaultTextColor="@color/black"
+            app:simpleTitleView_image_size="24dp"
+            app:simpleTitleView_image="@mipmap/ic_home_good_pigeon"
+            app:simpleTitleView_press_image="@mipmap/ic_home_good_pigeon_select"
+            app:simpleTitleView_text_size="10dp"
+            app:simpleTitleView_text="@string/text_good_pigeon"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1.6"
+            android:layout_height="match_parent"/>
+
+        <com.cpigeon.book.widget.SimpleTitleView
+            android:id="@+id/simple3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:simpleTitleView_PressTextColor="@color/black"
+            app:simpleTitleView_DefaultTextColor="@color/black"
+            app:simpleTitleView_image_size="24dp"
+            app:simpleTitleView_image="@mipmap/ic_share_hall"
+            app:simpleTitleView_press_image="@mipmap/ic_share_hall_select"
+            app:simpleTitleView_text_size="10dp"
+            app:simpleTitleView_text="@string/text_share_hall"
+            android:layout_height="match_parent"/>
+
+        <com.cpigeon.book.widget.SimpleTitleView
+            android:id="@+id/simple4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:simpleTitleView_PressTextColor="@color/black"
+            app:simpleTitleView_DefaultTextColor="@color/black"
+            app:simpleTitleView_image_size="24dp"
+            app:simpleTitleView_image="@mipmap/ic_home_my"
+            app:simpleTitleView_press_image="@mipmap/ic_home_my_select"
+            app:simpleTitleView_text_size="10dp"
+            app:simpleTitleView_text="@string/text_my"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="109dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_main_bottom_add_2" />
+
+</RelativeLayout>
+

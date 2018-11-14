@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_home_pop_close"
+        android:layout_width="match_parent"
+        android:scaleType="center"
+        android:layout_height="72dp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_above="@id/imgClose"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_line" />
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_above="@+id/line"
+        android:orientation="horizontal"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText1"
+                app:simpleTitleView_image_size="40dp"
+                app:simpleTitleView_text="@string/text_foot"
+                app:simpleTitleView_image="@mipmap/ic_foot_manger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                app:simpleTitleView_image="@mipmap/ic_train_record"
+                app:simpleTitleView_image_size="40dp"
+                app:simpleTitleView_text="@string/text_match_pigeon_train"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText2"
+                app:simpleTitleView_image="@mipmap/ic_breed_pigeon_manger"
+                app:simpleTitleView_image_size="40dp"
+                app:simpleTitleView_text="@string/text_breed_pigeon_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                app:simpleTitleView_image="@mipmap/ic_pigeon_take_photo"
+                app:simpleTitleView_text="@string/text_pigeon_take_photo"
+                app:simpleTitleView_image_size="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText3"
+                app:simpleTitleView_image="@mipmap/ic_match_pigeon_manger"
+                app:simpleTitleView_text="@string/text_match_pigeon_input"
+                app:simpleTitleView_image_size="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.cpigeon.book.widget.SimpleTitleView
+                android:id="@+id/simpleText6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                app:simpleTitleView_image="@mipmap/ic_match_pigeon_tool"
+                app:simpleTitleView_image_size="40dp"
+                app:simpleTitleView_text="@string/text_match_pigeon_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

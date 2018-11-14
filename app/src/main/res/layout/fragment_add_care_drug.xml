@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tvOk"
+        android:paddingLeft="@dimen/normal_safe_distance"
+        android:paddingRight="@dimen/normal_safe_distance">
+
+        <com.cpigeon.book.widget.LineInputListLayout
+            android:id="@+id/llRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvCareDrugName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_care_drug_name" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvCareDrugFunction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_care_drug_function" />
+
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvUserTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_Hint="@string/text_pleas_choose"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_user_time" />
+
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvRecordTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_Hint="@string/text_pleas_choose"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_record_time" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvUserResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_choose"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_user_result" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvAfterResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_choose"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_after_result" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvBodyTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="false"
+                app:lineInputView_LeftString="@string/text_current_body_temp" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_current_weather" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_current_temp" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvWindAngle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_current_wind_angle" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvHumidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_current_humidity" />
+
+            <com.cpigeon.book.widget.InputBoxView
+                android:id="@+id/inputRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inputBoxView_tittle="@string/text_remark_explain"
+                app:text_hint="500字以内" />
+
+            <TextView
+                android:id="@+id/tvOk"
+                style="@style/bottom_style"
+                android:layout_marginTop="@dimen/spacing_left_reight"
+                android:text="@string/text_sure_add"
+                android:textSize="18dp" />
+
+
+        </com.cpigeon.book.widget.LineInputListLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

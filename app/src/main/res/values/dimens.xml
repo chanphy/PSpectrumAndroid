@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="small_text_size_2">13sp</dimen>
+    <dimen name="medium_text_size">14sp</dimen>
+    <dimen name="big_text_size">16sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+
+    <dimen name="normal_safe_distance">20dp</dimen>
+
+    <dimen name="medium_text_size2">14</dimen>
+
+    <dimen name="spacing_left_reight">20dp</dimen>
+    <dimen name="spacing_left_reight2">8dp</dimen>
+    <dimen name="spacing_info_details_line">53dp</dimen>
+
+
+    <dimen name="item_h">60dp</dimen>
+    <dimen name="split_line_width">1px</dimen>
+    <dimen name="activity_about_copyright_textsize">14sp</dimen>
+    <dimen name="activity_about_copyright_margintop">5dp</dimen>
+    <dimen name="activity_about_copyright_layout_paddingbottom">10dp</dimen>
+    <dimen name="activity_about_clickitem_textsize">16sp</dimen>
+    <dimen name="activity_about_logo_layout_minheight">240dp</dimen>
+    <dimen name="activity_about_logo_height">65dp</dimen>
+    <dimen name="activity_about_logo_margintop">18dp</dimen>
+    <dimen name="activity_about_item_p">12dp</dimen>
+    <dimen name="activity_about_appname_matgintop">14dp</dimen>
+    <dimen name="activity_about_appname_textsize">20sp</dimen>
+    <dimen name="activity_about_versionname_margintop">8dp</dimen>
+    <dimen name="activity_about_versionname_textsize">20sp</dimen>
+    <dimen name="activity_about_company_intro_textsize">13sp</dimen>
+
+
+    <dimen name="view_input_height">117dp</dimen>
+
+    <dimen name="item_view_height">44dp</dimen>
+    <dimen name="item_view_height2">22dp</dimen>
+
+    <dimen name="img_w_h">24dp</dimen>
+
+    <!--信鸽详情-->
+    <dimen name="item_line_mlr">9dp</dimen>
+
+    <!--分享dialog-->
+    <dimen name="dialog_plr">10dp</dimen>
+    <dimen name="dialog_ptb">25dp</dimen>
+
+    <dimen name="small_tools_img_wh">51dp</dimen>
+    <dimen name="small_tools_item_w">153dp</dimen>
+    <dimen name="small_tools_tv_mt">20dp</dimen>
+
+
+    <!--测量小工具-->
+    <dimen name="ullage_tool_img_wh">16dp</dimen>
+    <dimen name="ullage_tool_img_wh2">12dp</dimen>
+    <dimen name="ullage_tool_lola_cen_img_mlr">10dp</dimen>
+    <dimen name="ullage_tool_lola_item_p">5dp</dimen>
+    <dimen name="ullage_tool_item_ptb">10dp</dimen>
+    <dimen name="ullage_tool_tv_size">14sp</dimen>
+
+    <dimen name="ullage_tool_tv_h1">30dp</dimen>
+    <dimen name="ullage_tool_tv_h2">50dp</dimen>
+    <dimen name="ullage_tool_tv_h3">40dp</dimen>
+
+    <!--赛线天气-->
+    <dimen name="line_weather_lr">20dp</dimen>
+    <dimen name="line_weather_lr2">30dp</dimen>
+    <dimen name="line_weather_tv_size">15dp</dimen>
+    <dimen name="line_weather_item_h">40dp</dimen>
+
+
+    <dimen name="water_img_tv_size">12sp</dimen>
+    <dimen name="water_img_sgt_tv_size">7sp</dimen>
+
+
+</resources>

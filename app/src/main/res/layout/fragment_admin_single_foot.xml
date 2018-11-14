@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_above="@+id/tvOk"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.cpigeon.book.widget.LineInputListLayout
+            android:id="@+id/llRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/spacing_left_reight"
+            android:paddingRight="@dimen/spacing_left_reight">
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_RightString="CHN"
+                app:lineInputView_LeftString="国家" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="足环" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="类别" />
+
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_status"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_isShowRightImage="invisible"
+                app:lineInputView_LeftString="状态" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="来源" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_InputType="number"
+                app:lineInputView_IsCanEdit="true"
+                app:lineInputView_isShowRightImage="invisible"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_RightString="0"
+                app:lineInputView_LeftString="金额" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_father_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="false"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_father_ring_number"
+                app:lineInputView_LeftString="父足环" />
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lv_mother_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:lineInputView_IsCanEdit="false"
+                app:lineInputView_IsNotNull="false"
+                android:visibility="gone"
+                app:lineInputView_Hint="@string/text_mother_ring_number"
+                app:lineInputView_LeftString="母足环" />
+
+            <com.cpigeon.book.widget.InputBoxView
+                android:id="@+id/boxViewRemark"
+                app:input_high="@dimen/view_input_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:inputBoxView_tittle="@string/text_remark"
+                app:text_hint="500字内" />
+
+        </com.cpigeon.book.widget.LineInputListLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+    <TextView
+        android:id="@+id/tvOk"
+        style="@style/bottom_style"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/text_commit" />
+
+</RelativeLayout>
+
+

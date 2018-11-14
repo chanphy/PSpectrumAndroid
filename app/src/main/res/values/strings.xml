@@ -1,0 +1,666 @@
+<resources>
+    <string name="app_name">天下鸽谱</string>
+
+    <string name="weixin_appid">wx86455b1f11ad03d0</string>
+
+    <string name="title_home_fragment">home</string>
+    <string name="title_home_fragment2">home2</string>
+    <string name="title_home_fragment3">home3</string>
+    <string name="title_home_fragment4">home4</string>
+    <string name="text_login_password_hint">密码</string>
+    <string name="text_login">登录</string>
+    <string name="text_register_at_once">立即注册</string>
+    <string name="text_forget_password">忘记密码</string>
+    <string name="text_get_auth_code">获取验证码</string>
+    <string name="text_input_auth_code">输入验证码</string>
+    <string name="text_agree_and_read">我已阅读并同意</string>
+    <string name="text_book_use_agreement">天下鸽谱使用协议</string>
+    <string name="text_input_request_code">输入邀请码可获取鸽币（选填）</string>
+    <string name="text_sure_commit">确认提交</string>
+    <string name="text_password_length_hint">由6到16位包含字母数字的字符组成</string>
+    <string name="text_pigeon_house_name">鸽舍名称</string>
+    <string name="text_connection_phone">联系手机</string>
+    <string name="text_connection_phone_m">联系手机：</string>
+    <string name="text_belongs_organize">所属鸽会</string>
+    <string name="text_register_shed_number">注册棚号</string>
+    <string name="text_join_match_number">参赛编号</string>
+    <string name="text_pigeon_house_location">鸽舍坐标</string>
+    <string name="text_pigeon_house_la">鸽舍纬度</string>
+    <string name="text_pigeon_house_lo">鸽舍经度</string>
+    <string name="text_degree">度</string>
+    <string name="text_minute">分</string>
+    <string name="text_second">秒</string>
+    <string name="text_location">所在省市</string>
+    <string name="text_details_address">详细地址</string>
+    <string name="text_go_auth">去认证</string>
+
+    <string name="text_input_right_phone">请输入正确的手机号码！</string>
+    <string name="text_input_right_auth_code">请输入正确的验证码！</string>
+    <string name="text_input_right_password">请输入密码！</string>
+    <string name="text_tiwce_password_not_same">两次输入密码不一致！</string>
+    <string name="text_agree_agreement">请同意天下鸽谱使用协议</string>
+    <string name="text_search">搜索</string>
+    <string name="text_search_history">搜索历史</string>
+    <string name="text_clean">清空</string>
+
+    <string name="text_location_lo_la">E%1$s N%2$s</string>
+    <string name="text_la">纬度 %1$s</string>
+    <string name="text_lo">经度 %1$s</string>
+    <string name="text_error_not_select_location">选择地址异常，请检查网络</string>
+    <string name="title_map_location">地图定位</string>
+
+
+    <string name="text_renewal_login_psd">修改登录密码</string>
+    <string name="text_renewal_play_psd">修改支付密码</string>
+
+
+    <string name="title_select_ass">选择协会</string>
+    <string name="title_select_loft">选择公棚</string>
+    <string-array name="array_org">
+        <item>@string/title_select_ass</item>
+        <item>@string/title_select_loft</item>
+    </string-array>
+
+    <string name="text_open_gallery">打开相册</string>
+    <string name="text_open_camera">打开相机</string>
+    <string-array name="array_choose_photo">
+        <item>@string/text_open_camera</item>
+        <item>@string/text_open_gallery</item>
+    </string-array>
+
+    <!--有无副作用-->
+    <string name="text_side_effects_y">有副作用</string>
+    <string name="text_side_effects_n">无副作用</string>
+    <string-array name="array_side_effects">
+        <item>@string/text_side_effects_y</item>
+        <item>@string/text_side_effects_n</item>
+    </string-array>
+
+    <!--有无效果-->
+    <string name="text_use_effect_y">有效果</string>
+    <string name="text_use_effect_n">无效果</string>
+    <string-array name="array_use_effect">
+        <item>@string/text_use_effect_y</item>
+        <item>@string/text_use_effect_n</item>
+    </string-array>
+
+
+    <!--账户安全-->
+    <string-array name="array_account_security">
+        <item>@string/text_renewal_login_psd</item>
+        <item>@string/text_renewal_play_psd</item>
+    </string-array>
+
+    <string name="text_one_foot_input">单个足环录入</string>
+    <string name="text_foots_input">按号码段录入</string>
+    <string-array name="array_choose_input_foot_number">
+        <item>@string/text_one_foot_input</item>
+        <item>@string/text_foots_input</item>
+    </string-array>
+
+    <!--繁育信息-->
+    <string name="array_pairing_add">添加配对</string>
+    <string name="array_pairing_recommend">推荐配对</string>
+    <string name="array_blind_date">相亲配对</string>
+    <string-array name="text_breeding_info">
+        <item>@string/array_pairing_add</item>
+        <item>@string/array_pairing_recommend</item>
+        <item>@string/array_blind_date</item>
+    </string-array>
+
+    <!--产蛋信息-->
+    <string name="string_lay_eggs_yes">已产蛋</string>
+    <string name="string_lay_eggs_no">未产蛋</string>
+    <string-array name="array_lay_eggs">
+        <item>@string/string_lay_eggs_yes</item>
+        <item>@string/string_lay_eggs_no</item>
+    </string-array>
+
+    <!--出壳状态-->
+    <string name="string_hatches_info_yes">已出壳</string>
+    <string name="string_hatches_info_no">未出壳</string>
+    <string-array name="array_hatches_info">
+        <item>@string/string_hatches_info_yes</item>
+        <item>@string/string_hatches_info_no</item>
+    </string-array>
+    <string name="text_status_not_set_foot_ring">未挂环</string>
+    <string name="text_status_set_foot_ring">已挂环</string>
+
+
+    <string name="text_breed_pigeon">种鸽</string>
+    <string name="text_racing_pigeon">赛鸽</string>
+    <string-array name="array_pigeon_type">
+        <item>@string/text_breed_pigeon</item>
+        <item>@string/text_racing_pigeon</item>
+    </string-array>
+
+
+    <!--关于我们-->
+    <string name="string_about_as_tv">天下鸽谱是一款方便快捷录入并管理信鸽信息，基于中鸽网12年来高达100G的赛鸽数据进行云计算分析处理，特别推出的产品！ \n特色功能划分： \n种：足环管理，种鸽管理，血统书制作，血缘寻根。 \n养：爱鸽日记，配对牵线，病情分析，药物推荐。 \n训：记录、分析每一次训鸽成绩，优胜劣汰。 \n赛：赛鸽管理，赛鸽成绩汇总，通过云系统进行大数据全面分析赛鸽成绩，铭鸽评选。 </string>
+    <string name="string_about_as_tv1">天下鸽谱是一款方便快捷录入并管理信鸽信息，基于中鸽网12年来高达100G的赛鸽数据进行云计算分析处理，特别推出的产品！</string>
+    <string name="string_about_as_tv2"> 特色功能划分：</string>
+    <string name="string_about_as_tv3"> 种：足环管理，种鸽管理，血统书制作，血缘寻根。 </string>
+    <string name="string_about_as_tv4">养：爱鸽日记，配对牵线，病情分析，药物推荐。  </string>
+    <string name="string_about_as_tv5">训：记录、分析每一次训鸽成绩，优胜劣汰。 </string>
+    <string name="string_about_as_tv6"> 赛：赛鸽管理，赛鸽成绩汇总，通过云系统进行大数据全面分析赛鸽成绩，铭鸽评选。</string>
+
+
+    <!--网址titile-->
+    <string name="web_title_share_txgp">分享天下鸽谱</string>
+    <string name="web_title_function_intro">功能介绍</string>
+    <string name="web_title_user_agreement">用户协议</string>
+    <string name="web_title_play_agreement">支付协议</string>
+    <string name="web_title_use_help">使用帮助</string>
+
+    <!--支付-->
+    <string name="user_agree_agreement1">我已阅读并同意</string>
+    <string name="user_agree_agreement2">《支付协议》</string>
+    <string name="user_money_hint_num">请输入充值金额</string>
+
+    <!--按钮文字-->
+    <string name="btn_next_step">下一步</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_sure_inport">确定导入</string>
+    <string name="btn_sure_add">立即添加</string>
+    <string name="btn_sure_modify">确定修改</string>
+    <string name="btn_sure_upload">确定上传</string>
+
+    <string name="str_img_upload">上传照片</string>
+
+    <!--养鸽管理-->
+    <string name="str_use_vaccine_details">疫苗注射详情</string>
+    <string name="str_status_illness_record_details">病情记录详情</string>
+    <string name="str_drug_use_case_details">用药情况详情</string>
+    <string name="str_care_drug_details">保健品详情</string>
+
+
+    <string name="cpigeon_intro">中鸽助手是为中鸽网公棚和协会用户提供信息发布、赛鸽管理和比赛监控的平台。目前提供：公棚赛鸽摄像、鸽运通（比赛监控）、训鸽通（个人训放监控）、鸽信通（短信群发）等服务和公棚、协会信息发布管理等功能，一部手机搞定所有工作，简单便捷高效，节省您的时间、提高工作效率。</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="version_information_gs">成都市中鸽科技有限公司</string>
+    <string name="version_information_c" translatable="false">Copyright © 2006 - 2018 All rights reserved.</string>
+    <string name="text_name">姓名</string>
+    <string name="text_id_card_number">身份证号</string>
+    <string name="text_sex">性别</string>
+    <string name="text_family">民族</string>
+    <string name="text_authority">签发机关</string>
+    <string name="text_indate">有效期</string>
+
+    <string name="text_yet_auth">已认证</string>
+    <string name="title_id_card">身份证认证</string>
+    <string name="text_foot_manger">足环管理</string>
+    <string name="text_breed_pigeon_manger">我的种鸽</string>
+    <string name="text_train_record">赛鸽训练</string>
+    <string name="text_match_pigeon_manger">我的赛鸽</string>
+    <string name="text_feed_pigeon_record">爱鸽管理</string>
+    <string name="text_ai_pigeon_house">智能鸽舍</string>
+    <string name="text_skip">跳过</string>
+    <string name="text_launch_sikp">跳过 %d</string>
+    <string name="text_blood_book_made">血统书制作</string>
+    <string name="text_blood_book">血统</string>
+    <string name="text_match_pigeon_analyse">赛鸽分析</string>
+    <string name="text_blood_find">血统寻根</string>
+    <string name="text_breed_info">繁育信息</string>
+    <string name="text_pigeon_match_info">信鸽赛绩</string>
+    <string name="text_pigeon_photo">信鸽相册</string>
+    <string name="text_home">首页</string>
+    <string name="text_good_pigeon">铭鸽库</string>
+    <string name="text_trading_hall">交易厅</string>
+    <string name="text_share_hall">共享鸽</string>
+    <string name="title_pigeon_house_info">鸽舍信息</string>
+    <string name="text_male">男</string>
+    <string name="text_male_a">雄</string>
+    <string name="text_male_pigeon">雄鸽</string>
+    <string name="text_female">女</string>
+    <string name="text_female_a">雌</string>
+    <string name="text_female_pigeon">雌鸽</string>
+    <string name="text_id_card_p">正面照片</string>
+    <string name="text_id_card_n">反面照片</string>
+    <string name="text_match_pigeon_train">赛鸽路训</string>
+    <string name="text_breed_pigeon_input">种鸽录入</string>
+    <string name="text_pigeon_take_photo">爱鸽拍照</string>
+    <string name="text_match_pigeon_input">赛鸽录入</string>
+    <string name="text_match_pigeon_tool">赛鸽工具</string>
+    <string name="text_search_ass">点击搜索协会</string>
+    <string name="text_search_loft">点击搜索公棚</string>
+    <string name="text_add_foot_number">添加足环号码</string>
+    <string name="text_input_foot_number_search">请输入足环号码进行搜索</string>
+    <string name="text_remark">备注</string>
+    <string name="text_remark_explain">备注说明</string>
+    <string name="text_edit_lenth_hint">500字内</string>
+    <string name="text_yuan">%1$s元</string>
+    <string name="text_weixing_charge">(微信手续费%1$s元)</string>
+    <string name="text_RMB">元</string>
+    <string name="text_foot_details">足环详情</string>
+    <string name="text_delete">删除</string>
+    <string name="text_share">分享</string>
+    <string name="text_delete_warning_hint">确定删除该条数据吗？</string>
+    <string name="text_is_sure_delete_foot_number">是否确定删除该足环 ?</string>
+    <string name="text_input_county_name_and_search">请输入国家名字进行搜索</string>
+    <string name="text_area_select">区号选择</string>
+    <string name="text_all">全部</string>
+    <string name="text_custom">自定义</string>
+    <string name="text_custom_foot_ring_number">自定义环号</string>
+    <string name="text_standard_foot_ring_number">标准环号</string>
+    <string name="text_reset">重置</string>
+    <string name="text_sure">确定</string>
+    <string name="text_category">类别</string>
+    <string name="text_pigeon_status">状态</string>
+    <string name="text_is_hand_ring">是否挂环</string>
+    <string name="text_pigeon_blood">血统</string>
+    <string name="text_year">年份</string>
+    <string name="text_china_code">CHN</string>
+    <string name="text_china_id">2</string>
+    <string name="text_input_foot_numbers">足环号段录入</string>
+    <string name="text_foots">%1$s ···· %2$s</string>
+    <string name="text_standard_foot">%1$s-%2$s-%3$s</string>
+    <string name="text_standard_foot_2">%1$s-%2$s</string>
+    <string name="text_foots_divide">-</string>
+    <string name="text_foots_details">足环号段详情</string>
+    <string name="text_is_delete_foot_numbers">是否删除该足环号段，删除过后号段里的所有足环将全部删除？</string>
+    <string name="text_input_ass_and_search">请输入协会名字搜索</string>
+    <string name="text_input_loft_and_search">请输入公棚名字搜索</string>
+    <string name="text_operate_log">操作日志</string>
+    <string name="text_feed_back">意见反馈</string>
+    <string name="text_feed_back_content">反馈内容</string>
+    <string name="text_all_money">总金额</string>
+    <string name="text_not_handle">未处理</string>
+    <string name="text_handled">已处理</string>
+    <string name="text_not_reply">已经回复</string>
+
+    <string name="text_input_foot_numbers_count_limit">录入的足环数量不超过10000个</string>
+    <string name="text_currency_exchange">鸽币兑换</string>
+    <string name="text_currency_details">鸽币明细</string>
+    <string name="text_my_currency">我的鸽币</string>
+    <string name="text_way_of_get_currency">鸽币获取方法</string>
+    <string name="text_pigeon_score">鸽币</string>
+    <string name="text_pigeon_score_content">%1$s鸽币</string>
+    <string name="text_finished">已完成</string>
+    <string name="text_go_finish">去完成</string>
+    <string name="text_unpaid">待支付</string>
+    <string name="text_out_of_date">已过期</string>
+    <string name="text_finish">完成</string>
+    <string name="text_foot">足环录入</string>
+    <string name="text_pleas_input_foot_number">请输入环号</string>
+    <string name="text_add_breed_pigeon">添加种鸽</string>
+    <string name="text_add_play_pigeon">添加赛鸽</string>
+    <string name="text_go_choose">去选择</string>
+    <string name="text_foot_input_price">足环金额录入</string>
+    <string name="text_pleas_input_pigeon_name">请输入鸽子名称</string>
+    <string name="text_pigeon_name">鸽名</string>
+    <string name="text_pigeon_loft_name">请输入鸽舍名称</string>
+    <string name="text_hint_input">请输入</string>
+
+    <string name="text_pigeon_lineage">血统添加</string>
+    <string name="text_feather_color">羽色</string>
+    <string name="text_eye_sand">眼砂</string>
+    <string name="text_feather">羽色:%1$s</string>
+    <string name="text_feather_count">羽数</string>
+    <string name="text_foot_source">录入足环来源</string>
+    <string name="text_source">来源</string>
+    <string name="text_all_photo">全部照片</string>
+
+
+    <string name="tv_play_org">请输入组织名称</string>
+    <string name="tv_project_name">请输入项目名称</string>
+    <string name="tv_paly_scale">请输入比赛规模</string>
+    <string name="tv_paly_rank">请输入比赛名次</string>
+    <string name="tv_paly_time">请选择比赛时间</string>
+    <string name="tv_fly_ullage">请输入司放空距（千米）</string>
+    <string name="tv_fly_place">请输入司放地点</string>
+    <string name="tv_additional_info">请输入附加信息内容</string>
+
+    <string name="tv_fertilized_egg">请输入受精蛋个数</string>
+    <string name="tv_fertilized_egg_no">请输入无精蛋个数</string>
+    <string name="tv_hatches_num">请输入出壳个数</string>
+    <string name="tv_hatches_giving_name">请输入赠送人的名字</string>
+
+    <string name="tv_body_temperature">请输入体温</string>
+    <string name="tv_vaccine_name">请输入疫苗名称</string>
+    <string name="tv_illness_name">请输入疾病名称</string>
+    <string name="tv_illness_symptom">请输入症状</string>
+    <string name="tv_input_vaccine_reason">请输入注射原因</string>
+    <string name="tv_input_remark">请输入备注</string>
+
+    <string name="tv_drug_name">请输入药品名称</string>
+
+    <string name="tv_care_drug_name">请输入保健品名称</string>
+    <string name="tv_care_drug_function">请输入保健品功能</string>
+
+
+    <string name="text_time">时间</string>
+    <string name="text_set_photo_face">设为封面</string>
+    <string name="text_move">移动</string>
+    <string name="text_set_face">设为封面</string>
+
+    <string-array name="array_order_status">
+        <item>@string/text_all</item>
+        <item>@string/text_unpaid</item>
+        <item>@string/text_finished</item>
+        <item>@string/text_out_of_date</item>
+    </string-array>
+
+
+    <string-array name="array_msg">
+        <item>@string/test_announcement_notice</item>
+        <item>@string/test_pigeon_friend_msg</item>
+    </string-array>
+
+    <string-array name="pay_ways">
+        <item>@string/text_pay_ways_score</item>
+        <item>@string/text_pay_ways_balance</item>
+        <item>@string/text_pay_ways_winxin</item>
+    </string-array>
+
+    <string name="test_announcement_notice">公告通知</string>
+    <string name="test_pigeon_friend_msg">鸽友消息</string>
+    <string name="text_sure_modify">确认修改</string>
+    <string name="text_must_open">立即开通</string>
+    <string name="text_open_at_once">立即开通</string>
+    <string name="text_renew_at_once">立即续费</string>
+    <string name="text_open_service">开通服务</string>
+    <string name="text_opened_service">已开通服务</string>
+    <string name="text_all_service">未开通服务</string>
+    <string name="text_open_report">开通记录</string>
+    <string name="text_trained">已训</string>
+    <string name="text_status">状态</string>
+    <string name="text_new">新建</string>
+    <string name="text_project_name">项目名称</string>
+    <string name="text_pleas_input">请输入</string>
+    <string name="text_fly_location">放飞地点</string>
+    <string name="text_location_only">地点</string>
+    <string name="text_fly_point">放飞坐标</string>
+    <string name="text_save">保存</string>
+    <string name="text_new_train_pigeon">新建训鸽</string>
+    <string name="text_KM">%1$sKM</string>
+    <string name="text_choose_yet">已选</string>
+    <string name="text_all_choose">全选</string>
+    <string name="text_add_at_once">立即添加</string>
+    <string name="text_service_name">服务名称</string>
+    <string name="text_price">价格:</string>
+    <string name="text_pay_ways_score">鸽币支付</string>
+    <string name="text_pay_ways_balance">余额支付</string>
+    <string name="text_pay_ways_winxin">微信支付</string>
+    <string name="text_current_weather">当前天气</string>
+    <string name="text_current_position">当前坐标</string>
+    <string name="text_open_fly">开启放飞</string>
+    <string name="text_end_yet">已结束</string>
+    <string name="text_end_not">未结束</string>
+    <string name="text_pigeon_training">训鸽中</string>
+    <string name="text_start_not">未开始</string>
+    <string name="text_add">添加</string>
+    <string name="text_training">训鸽中</string>
+    <string name="text_speed_content">分速:%1$s m/min</string>
+    <string name="text_speed_content_1">%1$sm/min</string>
+    <string name="text_speed">分速</string>
+    <string name="text_fly_back_time_content">归巢:%1$s</string>
+    <string name="text_fly_back_time">归巢时间</string>
+    <string name="text_score">积分:%1$s</string>
+    <string name="text_all_score">总积分:%1$s</string>
+    <string name="text_all_speed">总分速:%1$s m/min</string>
+    <string name="text_blood_content">血统:%1$s</string>
+    <string name="text_blood">血统</string>
+    <string name="text_blood_bank">血统库</string>
+    <string name="text_foot_number">足环号码</string>
+    <string name="text_input_please">请输入</string>
+    <string name="text_input_select">请选择</string>
+    <string name="text_time_y_m_d_h_m">%1$s-%2$s-%3$s %4$s:%5$s</string>
+    <string name="text_time_y_m_d">%1$s-%2$s-%3$s</string>
+    <string name="text_time_h_m_s"> %1$s:%2$s:%3$s</string>
+    <string name="text_add_homing_recode">添加归巢记录</string>
+    <string name="text_join_train_count">参训:%1$s羽</string>
+    <string name="text_homing_count">归巢:%1$s羽</string>
+    <string name="text_order_content">第%1$s名 </string>
+    <string name="text_time_content">第%1$s次 </string>
+    <string name="text_details">详情</string>
+    <string name="text_end_train">结束训赛</string>
+    <string name="text_train_analyze">赛绩分析</string>
+    <string name="text_sure_choose">确认选择</string>
+    <string name="text_title_train_analyze">%1$s——训练分析</string>
+    <string name="text_order_by_score">按积分</string>
+    <string name="text_order_by_speed">按分数</string>
+    <string name="text_nef">随拍</string>
+    <string name="text_drug_use">用药</string>
+    <string name="text_drug_use_case">用药情况</string>
+    <string name="text_drug_name">药品名称</string>
+    <string name="text_drug_use_time">用药日期</string>
+    <string name="text_drug_after_result">用药副作用</string>
+    <string name="text_after_result">副作用</string>
+    <string name="text_drug_after_status">用药效果</string>
+    <string name="text_care">保健</string>
+    <string name="text_care_drug">保健品</string>
+    <string name="text_care_drug_name">保健品名称</string>
+    <string name="text_care_drug_function">保健功效</string>
+    <string name="text_function">功能</string>
+    <string name="text_drug_use_effect">用药效果</string>
+    <string name="text_vaccine">疫苗</string>
+    <string name="text_vaccine_name">疫苗名称</string>
+    <string name="text_use_vaccine_reason">注射原因</string>
+    <string name="text_use_vaccine">注射疫苗</string>
+    <string name="text_state_illness">病情</string>
+    <string name="text_state_illness_record">病情记录</string>
+    <string name="text_illness_symptom">病状特征</string>
+    <string name="text_illness_name">疾病名称</string>
+    <string name="text_is_user_drug">是否用药</string>
+    <string name="text_add_feed_pigeon_record">添加爱鸽管理</string>
+    <string name="text_sure_add">确认添加</string>
+    <string name="text_pleas_choose">请填写</string>
+    <string name="text_current_temp">当前温度</string>
+    <string name="text_current_wind_angle">当前风向</string>
+    <string name="text_current_humidity">当前湿度</string>
+    <string name="text_current_body_temp">体温</string>
+    <string name="text_ill_time">患病日期</string>
+    <string name="text_user_time">开始时间</string>
+    <string name="text_user_result">使用效果</string>
+    <string name="text_record_time">结束时间</string>
+    <string name="text_is_have_after_result">是否有副作用</string>
+    <string name="text_hint">提示</string>
+
+
+    <!--种鸽  //鸽子类型（8为种鸽，9为赛鸽，不传则全部查询）-->
+    <string name="pigeon_type_breed">8</string>
+    <!--赛鸽-->
+    <string name="pigeon_type_racing">9</string>
+    <string name="text_pigeon_master_sign">鸽主签名：</string>
+    <string name="text_choose_template">选择模板</string>
+    <string name="text_choos_book_template">选择血统书模板</string>
+    <string name="text_photo_all_place">相册总容量 %1$sM </string>
+    <string name="text_photo_user_and_remain_place">(已用%1%M，剩余%2%M)</string>
+
+
+    <string name="str_copyright_information_hint">天气仅供参考，天下鸽谱提醒您切勿作为商业用途！</string>
+    <!--测量小工具-->
+    <string name="str_ullage_tool_bottom">1、经纬度的格式为：度，分，秒，百分秒。如：123.234467 为123度23分44.67秒。\n2、以上的单元填写项不得为空，应以"0"补足。如5：30分，就应输入5时30分0秒。\n3、空距计算采用中国信鸽协会统一标准算法(2005-8-31公布)，由于算法、精度取舍等不同，各种软件计算结果可能存在一定误差。\n4、由于各地日出日落不一致，只计算当日归巢分速。\n</string>
+    <string name="str_line_seconds">00.00\"</string>
+    <!--中鸽网-->
+    <string name="package_cpigeon">com.cpigeon.app</string>
+    <string name="package_cpigeonhelp">com.cpigeon.cpigeonhelper</string>
+    <string name="text_join_match_count">参赛次数</string>
+    <string name="text_match_rank">比赛名次</string>
+    <string name="text_match_distance">比赛空距</string>
+    <string name="text_match_current_speed">当前分速</string>
+    <string name="text_match_pigeon_count">比赛羽数</string>
+    <string name="text_match_first_speed">历次第一名</string>
+    <string name="text_match_time">比赛时间</string>
+    <string name="text_organize_name">组织名称</string>
+    <string name="text_rank">名次</string>
+    <string name="text_sure_add_good_pigeon">确定加入铭鸽库</string>
+    <string name="text_apply_add_content_1">您正在申请将您的爱鸽</string>
+    <string name="text_apply_add_content_2">加入铭鸽库。通过后，所有鸽友将能查看您的爱鸽信息和血统书且不能修改已加入铭鸽库的信鸽信息。</string>
+    <string name="text_my_share">我的共享</string>
+    <string name="text_add_share_pigeon">共享种鸽</string>
+    <string name="text_pigeon_master_name">鸽主姓名</string>
+    <string name="text_connection_pigeon_master">我要相亲</string>
+    <string name="text_sure_share">确认共享</string>
+    <string name="text_not_choose_pigeon">你还没有选鸽子！</string>
+
+
+    <!--繁育-->
+    <string name="str_pairing_nest_info">窝次信息</string>
+    <string name="str_pairing_nest_add">添加窝次</string>
+    <string name="str_offspring_add">子代录入</string>
+
+
+    <string name="text_my">我的</string>
+    <string name="text_word_good_pigeon">世界铭鸽</string>
+    <string name="text_my_good_pigeon">我的铭鸽</string>
+    <string name="text_applying">申请中</string>
+    <string name="text_not_setting">未设置</string>
+
+    <string-array name="array_good_pigeon">
+        <item>@string/text_word_good_pigeon</item>
+        <item>@string/text_my_good_pigeon</item>
+        <item>@string/text_applying</item>
+    </string-array>
+
+    <string name="text_temp">%1$s°C</string>
+    <string name="text_wind_direction">%1$s风</string>
+    <string name="text_not_get_weather">获取天气失败!</string>
+    <string name="text_altitude">海拔：%1$sm</string>
+    <string name="text_select_back_fly_time_error">你选择的时间比放飞时间还早哦！</string>
+    <string name="text_all_pigeon_back_yet">所有鸽子已经归巢！</string>
+    <string name="text_default">0001-01-01</string>
+
+    <string name="string_die">死亡</string>
+    <string name="text_train_again">再训一次</string>
+    <string name="text_train_again_content">再训%1$s</string>
+    <string name="text_is_sure_delete_train">是否删除该训练？</string>
+    <string name="text_is_end_train">您是否要结束训练?</string>
+    <string name="text_not_have_end_yet_train">没有可以分析的比赛</string>
+    <string name="text_match_first_count">冠军%1$s羽</string>
+    <string name="text_match_second_count">亚军%1$s羽</string>
+    <string name="text_match_third_count">季军%1$s羽</string>
+    <string name="text_pigeon_details">信鸽详情</string>
+    <string name="text_cancel_share">取消共享</string>
+    <string name="text_is_cancel_share">是否确定取消分享该种鸽？</string>
+    <string name="text_is_share_pigeon">您是否共享该种鸽？</string>
+    <string name="text_apply_add_good_pigeon">申请加入铭鸽库</string>
+    <string name="text_pleas_choose_pigeon">请您选择要加入铭鸽库的鸽子！</string>
+
+    <string-array name="array_foot_ring_type">
+        <item>特比环</item>
+        <item>统一足环</item>
+        <item>其他足环</item>
+        <item>私环</item>
+        <item>已挂环</item>
+        <item>未挂环</item>
+    </string-array>
+
+    <string-array name="array_breed_pigeon_type">
+        <item>种鸽</item>
+        <item>雄鸽</item>
+        <item>雌鸽</item>
+        <item>幼鸽</item>
+        <item>成鸽</item>
+        <item>老龄鸽</item>
+        <item>长寿鸽</item>
+    </string-array>
+
+    <string name="str_new_code">新版本 v%1%来啦</string>
+    <string name="text_young_pigeon">幼鸽</string>
+
+    <string-array name="array_contact_way">
+        <item>打电话</item>
+        <item>发短信</item>
+    </string-array>
+
+    <string name="str_pairing_info">配对信息</string>
+    <string name="str_input_play_hint1">我们正在</string>
+    <string name="str_input_play_hint2">快马加鞭导入赛绩</string>
+    <string name="text_service_book">天下鸽谱开通</string>
+    <string name="text_service_down_load_league">导入赛绩开通</string>
+    <string name="text_service_print_blood_book">打印血统书开通</string>
+    <string name="text_blood_book_count">血统书  %1$s</string>
+    <string name="text_service_share_pigeon">共享种鸽开通</string>
+    <string name="text_no_open_service">您还没有开通任务服务哦...</string>
+    <string name="text_input_pay_password">请输入支付密码</string>
+
+
+    <!--鸽币-->
+    <string name="str_gb_sign">今日签到</string>
+    <string name="str_gb_entry_foot">录入足环</string>
+    <string name="str_gb_entry_breed_pigeon">录入种鸽</string>
+    <string name="str_gb_entry_racing_pigeon">录入赛鸽</string>
+    <string name="str_gb_feed_pigeon">养鸽记录</string>
+    <string name="str_gb_photo_pigeon">信鸽拍照</string>
+
+    <string name="str_small_tools">信鸽随拍</string>
+
+    <string-array name="srt_arr_address">
+        <item>北京</item>
+        <item>天津</item>
+        <item>河北</item>
+        <item>山西</item>
+        <item>内蒙</item>
+        <item>辽宁</item>
+        <item>吉林</item>
+        <item>黑龙</item>
+        <item>上海</item>
+        <item>江苏</item>
+        <item>浙江</item>
+        <item>安徽</item>
+        <item>福建</item>
+        <item>江西</item>
+        <item>山东</item>
+        <item>河南</item>
+        <item>湖北</item>
+        <item>湖南</item>
+        <item>广东</item>
+        <item>广西</item>
+        <item>海南</item>
+        <item>四川</item>
+        <item>贵州</item>
+        <item>云南</item>
+        <item>西藏</item>
+        <item>陕西</item>
+        <item>甘肃</item>
+        <item>青海</item>
+        <item>宁夏</item>
+        <item>新疆</item>
+        <item>重庆</item>
+        <item>火车</item>
+        <item>石油</item>
+    </string-array>
+    <string name="text_breed_person">作育人</string>
+    <string name="text_fly_person">作翔人</string>
+    <string name="text_pigeon_generation_title">%1$s上%2$s代</string>
+    <string name="text_pleas_choose_time">请选择时间</string>
+    <string name="text_pleas_complete_train_info">请完善司放坐标和时间！</string>
+
+    <string name="str_name_homing_pigeon">点击此处查看我的全部信鸽</string>
+
+    <string name="str_line_weather">中鸽网赛线天气</string>
+    <string name="text_ring_unit">个</string>
+    <string name="text_pigeon_unit">羽</string>
+    <string name="text_base_info">基础信息</string>
+    <string name="text_addition_info">附加信息</string>
+    <string name="text_pigeon_type">信鸽类型</string>
+    <string name="text_pleas_input_blood">请输入血统</string>
+    <string name="text_father_ring_number">父环号</string>
+    <string name="text_mother_ring_number">母足环</string>
+    <string name="text_birth_time">出壳日期</string>
+    <string name="text_set_ring_time">挂环日期</string>
+    <string name="text_pigeon_input">信鸽录入</string>
+    <string name="text_pigeon_edit">信鸽修改</string>
+    <string name="str_msg">消息</string>
+    <string name="str_recycle_bin">回收站</string>
+    <string name="str_recycle_bin_empty">清空</string>
+    <string name="text_select_blood">选择血统</string>
+    <string name="text_reinput">重新输入</string>
+    <string name="text_bracket">(%1$s)</string>
+    <string name="text_hint_pigeon_is_death">该足环已经挂环！是否将该鸽设置为死亡状态并重新挂环？</string>
+    <string name="text_death_reason">死亡原因</string>
+    <string name="text_use_arm_prompt">温馨提示:注射疫苗时必须保证信鸽处于健康状态，体温正常（添加正常度数），食欲正常，排便正常，并检查口腔处于粉白状态，无粘液，正常体温为42℃，注射完毕后须给信鸽电解质或者甘精，以防应急反应。</string>
+
+    <string name="str_hint_no">暂无</string>
+    <string name="str_my_server">我的服务</string>
+    <string name="text_direct_use">直接使用</string>
+    <string name="text_select_father_pigeon">请选择父鸽子</string>
+    <string name="text_select_mother_pigeon">选择母鸽子</string>
+    <string name="text_save_blood_book_yet">已经生成血统书请在相册里查看！</string>
+    <string name="text_temp_no">暂无</string>
+
+
+    <string name="str_shoot_org_hint">赛事组织可填写协会，鸽舍，比赛等组织名称</string>
+
+</resources>

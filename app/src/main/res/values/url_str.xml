@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--baseURl-->
+    <string name="baseUrl">http://192.168.0.18:8188/</string>
+    <string name="baseUrl2">http://192.168.0.18:8188/</string>
+    <string name="baseUrl3">http://192.168.0.18:8188/</string>
+    <string name="baseUr_x">http://192.168.0.8:808/</string>
+    <string name="baseUr_j">http://www.cpigeon.com:888/</string>
+
+    <!--签名加密字符串-->
+    <string name="keySign">CioLy49TR23jk4h0Ap8Opy34ho78on</string>
+    <!--天下鸽谱-->
+    <string name="api_head">CAPI/V1/</string>
+
+
+    <!--天下鸽谱APP分享-->
+    <string name="txgp_app_share">APP/Share?t=1</string>
+    <!--天下鸽谱使用协议-->
+    <string name="txgp_use_protocol">APP/Protocol?t=1</string>
+    <!--天下鸽谱支付协议-->
+    <string name="txgp_play_protocol">APP/Protocol?t=2</string>
+    <!--天下鸽谱功能介绍-->
+    <string name="txgp_function_introduce">APP/Intro?t=1</string>
+    <!--天下鸽谱使用帮助-->
+    <string name="txgp_use_help">APP/Help?t=1</string>
+    <!--中鸽网分享-->
+    <string name="app_share_zgw">http://www.cpigeon.com:818/APP/Download</string>
+    <!--中鸽助手app分享-->
+    <string name="app_share_zgzs">http://www.cpigeon.com:818/APP/DownloadCpigeonHelper</string>
+
+    <!--单点登录-->
+    <string name="user_single_login">ZGW_Users_SingleLogin</string>
+    <!--用户注册-->
+    <string name="user_register">ZGW_Users_Register</string>
+    <!--找回密码-->
+    <string name="user_forget_psd">ZGW_Users_FindPWD</string>
+    <!--修改密码 不需要验证码-->
+    <string name="user_modify_psd_know">ZGW_Users_UpdatePWD</string>
+    <!--修改密码 需要验证码-->
+    <string name="user_modify_psd_need">ZGW_Users_UpdatePWD</string>
+
+
+    <!--回收站 列表-->
+    <string name="recycle_bin_list">TXGP_RecycleAllData</string>
+    <!--回收站  清空-->
+    <string name="recycle_bin_empty">TXGP_EmptyData</string>
+    <!--回收站  恢复-->
+    <string name="recycle_bin_restore">TXGP_RecoveryData</string>
+
+    <!--修改支付密码  需要验证码-->
+    <string name="user_modify_psd_play">ZGW_Users_SetUserPayPwd</string>
+    <!--用户登录-->
+    <string name="user_login">ZGW_Users_Login</string>
+    <!--退出登录-->
+    <string name="user_out_login">ZGW_Users_Logout</string>
+    <!--获取用户头像-->
+    <string name="user_head_img">ZGW_Users_GetUserFace</string>
+    <!--第一次登录获取鸽币-->
+    <string name="user_one_start_app">TXGP_StartUp</string>
+
+    <!--获取操作日志-->
+    <string name="user_log_book">ZGW_Users_GetLog</string>
+    <!--提交意见反馈-->
+    <string name="submit_feedback">ZGW_Users_Feedback_Add</string>
+    <!--意见反馈列表-->
+    <string name="list_feedback">ZGW_Users_Feedback_List</string>
+    <!--意见反馈详情-->
+    <string name="detail_feedback">ZGW_Users_Feedback_Detail</string>
+
+
+    <!--获取服务开通续费纪录-->
+    <string name="get_server_record">TXGP_GetServiceList</string>
+    <!--充值明细-->
+    <string name="account_balance_details">TXGP_ChongZhi_List</string>
+    <!--我的订单   列表-->
+    <string name="my_order_list">TXGP_GetOrderList</string>
+
+    <!--更新-->
+    <string name="update_info">version</string>
+
+    <!--公告通知-->
+    <string name="get_announcement_notice_list">TXGP_GongGao_GetList</string>
+    <!--公告通知统计-->
+    <string name="get_announcement_notice_count">TXGP_GongGao_Count</string>
+    <!--公告通知详情-->
+    <string name="get_announcement_notice_detail">TXGP_GongGao_Detail</string>
+    <!--鸽友消息-->
+    <string name="pigeon_friend_msg">TXGP_Msg_GetList</string>
+    <!--鸽友消息详情-->
+    <string name="pigeon_friend_msg_detail">TXGP_Msg_Detail</string>
+    <!--鸽友消息 统计-->
+    <string name="pigeon_friend_msg_count">TXGP_Msg_Count</string>
+    <!--获取公告通知和鸽友消息-->
+    <string name="notice_msg_info">TXGP_GetMSGInfo</string>
+
+
+    <!--获取用户服务、帐户余额、鸽币-->
+    <string name="get_user_info">TXGP_GetUserInfo</string>
+
+    <!--签到规则-->
+    <string name="sign_rule">ZGW_Users_SignGuiZe</string>
+    <!--点击签到-->
+    <string name="sign_click">ZGW_Users_SignIn</string>
+    <!--签到信息-->
+    <string name="sign_info">ZGW_Users_SignInfo</string>
+
+
+    <!--获取分享邀请码-->
+    <string name="share_invite_code">TXGP_FenXiang</string>
+
+    <string name="get_pigeon_house_info">TXGP_Add_PigeonHome</string>
+    <!--修改用户密码-->
+    <string name="modify_user_pad">ZGW_Users_UpdatePWD</string>
+
+    <!--启动页  图片-->
+    <string name="launch_img">TXGP_Get_StartUpAd</string>
+
+
+    <!--协会列表-->
+    <string name="get_ass_list">TXGP_PigeonISCO_GetList</string>
+    <!--公棚列表-->
+    <string name="get_loft_list">ZGW_GetGongPengList</string>
+    <!--设置用户头像和鸽舍名称-->
+    <string name="set_shoot_logo">SetSuiPai</string>
+    <!--获取用户头像和鸽舍名称-->
+    <string name="get_shoot_logo">GetSuiPai</string>
+
+
+    <!--鸽币兑换 列表-->
+    <string name="pigeon_currency_exchange_list">TXGP_GeBi_DuiHuan_List</string>
+    <!--鸽币明细 列表-->
+    <string name="pigeon_currency_details_list">TXGP_GeBi_List</string>
+    <!--获取鸽币-->
+    <string name="get_my_gebi">TXGP_Account_GeBi</string>
+
+    <!--添加单个足环-->
+    <string name="foot_add_single">TXGP_FootRing_Add</string>
+    <!--修改单个足环-->
+    <string name="foot_edit_single">TXGP_FootRing_Edit</string>
+    <!--获取单个足环详细-->
+    <string name="foot_details_single">TXGP_FootRing_Select</string>
+    <!--删除单个足环-->
+    <string name="foot_del_single">TXGP_FootRing_Delete</string>
+    <!--添加足环号段-->
+    <string name="foot_add_segment">TXGP_FootRing_AddSection</string>
+    <!--足环号码 列表所有-->
+    <string name="foot_list_all">TXGP_FootRing_SelectAll</string>
+    <string name="delete_foots">TXGP_FootRing_DeleteSection</string>
+    <string name="get_foot_stat">TXGP_FootRing_SelectCount</string>
+    <string name="get_foot_list">TXGP_FootRing_SearchAll</string>
+
+
+    <!--获取各个类型的足环数-->
+    <string name="foot_num_type">TXGP_FootRing_SelectType</string>
+    <!--查询种鸽（或者赛鸽）的雄鸽雌鸽数量-->
+    <string name="pigeon_sex_count">TXGP_Pigeon_SelectSexCount</string>
+
+
+    <!--&lt;!&ndash;获取鸽子性别&ndash;&gt;-->
+    <!--<string name="pigeon_sex_select">TXGP_PigeonSexType_Select</string>-->
+    <!--&lt;!&ndash;血统选择&ndash;&gt;-->
+    <!--<string name="pigeon_lineage_select">TXGP_PigeonBloodType_Select</string>-->
+    <!--&lt;!&ndash;眼砂选择&ndash;&gt;-->
+    <!--<string name="pigeon_eye_sand_select">TXGP_PigeonEyeType_Select</string>-->
+    <!--&lt;!&ndash;羽色选择&ndash;&gt;-->
+    <!--<string name="pigeon_feather_color_select">TXGP_PigeonPlumeType_Select</string>-->
+    <!--&lt;!&ndash;种鸽来源&ndash;&gt;-->
+    <!--<string name="pigeon_select_source">TXGP_PigeonSource_Select</string>-->
+    <!--&lt;!&ndash;足环来源&ndash;&gt;-->
+    <!--<string name="foot_source_single">TXGP_FootRingSource_Select</string>-->
+    <!--&lt;!&ndash;获取足环类型&ndash;&gt;-->
+    <!--<string name="foot_type_select">TXGP_FootRingType_Select</string>-->
+
+
+    <!--添加赛鸽-->
+    <string name="pigeon_racing_add">TXGP_Pigeon_AddPigeon</string>
+
+    <!--获取鸽子详细-->
+    <string name="pigeon_breed_details">TXGP_Pigeon_GetInfo</string>
+    <!--添加种鸽-->
+    <string name="pigeon_breed_add">TXGP_Pigeon_AddBreed</string>
+    <!--修改种鸽信息-->
+    <string name="pigeon_breed_modify">TXGP_Pigeon_EditBreed</string>
+    <!--修改赛鸽信息-->
+    <string name="pigeon_racing_modify">TXGP_Pigeon_EditPigeon</string>
+
+    <!--种鸽列表，搜索-->
+    <string name="pigeon_breed_search">TXGP_FootRing_SelectAll</string>
+    <!--种鸽列表，筛选-->
+    <!--<string name="pigeon_breed_sift">TXGP_Pigeon_SelectAll</string>-->
+    <string name="pigeon_breed_sift">TXGP_PigeonList_SelectAll</string>
+    <!--配对信息列表-->
+    <string name="pairing_info_list">TXGP_PigeonBreed_SelectPigeonAll</string>
+    <!--窝次信息列表-->
+    <string name="pairing_nest_info_list">TXGP_PigeonBreed_SelectIDAll</string>
+    <!--添加配对信息-->
+    <string name="pairing_info_add">TXGP_PigeonBreed_Add</string>
+    <!--窝次信息  添加-->
+    <string name="pairing_nest_info_add">TXGP_PigeonBreedNest_Add</string>
+    <!--窝次信息  修改-->
+    <string name="pairing_nest_info_modify">TXGP_PigeonBreedNest_Update</string>
+    <!--窝次信息  删除-->
+    <string name="pairing_nest_info_del">TXGP_PigeonBreedNest_Delete</string>
+
+
+    <!--养鸽记录列表-->
+    <string name="feed_pigeon_list">TXGP_Pigeon_SelectRecord</string>
+    <!--养鸽记录统计-->
+    <string name="feed_pigeon_statistical">TXGP_Pigeon_SelectIDCount</string>
+    <!--成长记录  列表-->
+    <string name="pigeon_growth_record">TXGP_Pigeon_SelectGrowAll</string>
+
+
+    <!--上传图片  一张-->
+    <string name="upload_img_one">TXGP_PigeonPhoto_Add</string>
+    <!--图片列表  筛选-->
+    <string name="pigeion_img_list">TXGP_PigeonPhoto_Select</string>
+    <!--单只鸽子  相片统计-->
+    <string name="pigeion_img_count">TXGP_PigeonPhoto_CountPhoto</string>
+    <!--照片  移动标签-->
+    <string name="pigeion_img_type_move">TXGP_PigeonPhoto_Update</string>
+    <!--照片  删除-->
+    <string name="pigeion_img_one_del">TXGP_PigeonPhoto_Delete</string>
+    <!--照片  设置为封面-->
+    <string name="pigeion_img_set_cover">TXGP_PigeonPhoto_EideConver</string>
+    <!--照片  修改图片备注-->
+    <string name="pigeion_img_edit_remark">TXGP_PigeonPhoto_EideRemark</string>
+
+
+    <!--疫苗注射添加-->
+    <string name="use_vaccine_add">TXGP_PigeonVaccine_Add</string>
+    <!--疫苗注射修改-->
+    <string name="use_vaccine_modify">TXGP_PigeonVaccine_Update</string>
+    <!--疫苗注射详情-->
+    <string name="use_vaccine_details">TXGP_PigeonVaccine_Select</string>
+    <!--疫苗注射删除-->
+    <string name="use_vaccine_del">TXGP_PigeonVaccine_Delete</string>
+
+    <!--病情记录  添加-->
+    <string name="status_illness_record_add">TXGP_PigeonDisease_Add</string>
+    <!--病情记录  修改-->
+    <string name="status_illness_record_modify">TXGP_PigeonDisease_Edit</string>
+    <!--病情记录  详情-->
+    <string name="status_illness_record_details">TXGP_PigeonDisease_Select</string>
+    <!--病情记录  删除-->
+    <string name="status_illness_record_del">TXGP_Delete_PigeonDisease</string>
+    <!--病情记录  列表-->
+    <string name="status_illness_record_list">TXGP_PigeonDisease_SelectAll</string>
+
+
+    <!--用药记录  添加-->
+    <string name="drug_use_case_add">TXGP_PigeonDrug_Add</string>
+    <!--用药记录  修改-->
+    <string name="drug_use_case_modify">TXGP_PigeonDrug_Edit</string>
+    <!--用药记录  详情-->
+    <string name="drug_use_case_details">TXGP_PigeonDrug_Select</string>
+    <!--用药记录  删除-->
+    <string name="drug_use_case_del">TXGP_PigeonDrug_Delete</string>
+
+    <!--保健品  添加-->
+    <string name="drug_care_drug_add">TXGP_PigeonHealth_Add</string>
+    <!--保健品  修改-->
+    <string name="drug_care_drug_modify">TXGP_PigeonHealth_Update</string>
+    <!--保健品  详情-->
+    <string name="drug_care_drug_details">TXGP_PigeonHealth_Select</string>
+    <!--保健品  删除-->
+    <string name="drug_care_drug_del">TXGP_PigeonHealth_Delete</string>
+
+
+    <!--评分 修改-->
+    <string name="pigeon_score_edit">TXGP_Pigeon_UpdateScore</string>
+
+
+    <!--信鸽血统推荐-->
+    <string name="pairing_recommend_lineage">TXGP_PigeonBreed_RecomBlood</string>
+    <!--信鸽赛绩推荐-->
+    <string name="pairing_recommend_play">TXGP_PigeonBreed_RecomMatch</string>
+    <!--信鸽评分推荐-->
+    <string name="pairing_recommend_sorce">TXGP_PigeonTrain_RecomSorce</string>
+
+
+    <!--赛绩录入-->
+    <string name="pigeon_play_entry">TXGP_PigeonMatch_Add</string>
+    <!--赛绩修改-->
+    <string name="pigeon_play_modify">TXGP_PigeonMatch_Edit</string>
+    <!--赛绩列表-->
+    <string name="pigeon_play_list">TXGP_Pigeon_SelectMatchAll</string>
+    <!--赛绩删除-->
+    <string name="pigeon_play_del">TXGP_PigeonMatch_Delete</string>
+    <!--赛绩详情-->
+    <string name="pigeon_play_details">TXGP_PigeonMatch_Select</string>
+    <!--导入 中鸽网直播数据  列表-->
+    <string name="live_play_list">TXGP_Race_GetResult</string>
+    <!--导入 直播数据-->
+    <string name="live_play_input">TXGP_Race_GetResult</string>
+
+
+    <!--添加赛绩附加信息-->
+    <string name="pigeon_play_additional_info_add">TXGP_PigeonInfoList_AddInfo</string>
+    <!--修改赛绩附加信息-->
+    <string name="pigeon_play_additional_info_modify">TXGP_PigeonInfoList_Update</string>
+    <!--删除赛绩附加信息-->
+    <string name="pigeon_play_additional_info_del">TXGP_PigeonInfoList_Delete</string>
+    <!--赛绩附加信息 列表-->
+    <string name="pigeon_play_additional_info_list">TXGP_Pigeon_SelectMatchInfoAll</string>
+
+
+    <!--足环，种赛鸽的类型，状态，来源，羽色，血统，眼沙，性别-->
+    <string name="pigeon_select_all_type">TXGP_Type_Select</string>
+
+    <string name="pigeon_select_filtrate_type">TXGP_Type_SelectMushType</string>
+    <string name="modify_pigeon_statue">TXGP_Pigeon_UpdateState</string>
+
+    <string name="set_pigeon_house">TXGP_PigeonHome_AddEdit</string>
+    <string name="get_pigeon_house">TXGP_PigeonHome_GetInfo</string>
+    <string name="api_set_user_face">ZGW_Users_SetUserFace</string>
+    <string name="set_user_id_card">ZGW_Users_ID</string>
+    <string name="get_county_list">TXGP_FootRingCode_GetCountyList</string>
+    <string name="get_county_area_list">TXGP_FootRingCode_GetCodeList</string>
+    <string name="modify_foots">TXGP_FootRing_EditSection</string>
+    <string name="get_home_ad">TXGP_Get_IndexAd</string>
+
+    <string name="get_user_id_card">ZGW_Users_GetID</string>
+    <string name="get_blood_book_4">TXGP_PigeonGenealogy_SelectFour</string>
+    <string name="add_book_parent">PigeonBreed_AddGenealogy</string>
+    <string name="get_train_pigeon_list">TXGP_PigeonTrain_SelectAll</string>
+    <string name="get_all_pigeon_list">TXGP_PigeonList_SelectAll</string>
+    <string name="new_train_pigeon">TXGP_PigeonTrain_Add</string>
+
+
+    <!--赛鸽工具相关接口-->
+    <string name="api_tool_get_gong_peng_info">Tool_GetGongPengInfo</string>
+    <string name="api_tool_get_sfd_info">Tool_GetSiFangDi</string>
+    <string name="api_get_kongju">Tool_GetKongJu</string>
+    <!--获取协会列表-->
+    <string name="api_XH_GetUsersList">XH_GetUsersList</string>
+    <string name="get_pigeon_sex_count">TXGP_Pigeon_SelectSexCount</string>
+    <string name="get_train_pigeon_details_1">TXGP_PigeonTrainCount_StartFly</string>
+    <string name="get_train_pigeon_details">TXGP_PigeonHome_GetCoordinate</string>
+    <string name="open_train_pigeon">TXGP_PigeonTrain_Release</string>
+    <string name="add_fly_train_info">TXGP_PigeonTrain_AddFromTime</string>
+    <string name="delete_train_pigeon">TXGP_PigeonTrain_Delete</string>
+    <string name="get_fly_back_record">TXGP_PigeonTrainCount_ReturnFly</string>
+    <string name="add_fly_back_record">TXGP_PigeonTrain_AddHome</string>
+    <string name="search_train_pigeon">TXGP_PigeonTrainDate_SelectID</string>
+    <string name="end_train_pigeon">TXGP_PigeonTrain_EndTrain</string>
+    <string name="get_train_pigeon_project">TXGP_PigeonTrain_GetPlace</string>
+    <string name="get_train_count_list">TXGP_PigeonTrainCount_SelectID</string>
+    <string name="train_again">TXGP_PigeonTrain_ReStart</string>
+    <string name="get_pigeon_train_details">TXGP_PigeonTrain_TrainDataID</string>
+    <string name="get_pigeon_train_analyse">TXGP_PigeonTrain_TrainAnalyse</string>
+    <string name="get_pigeon_league_stat">TXGP_PigeonMatch_Count</string>
+    <string name="get_pigeon_league_details">TXGP_PigeonMatch_Analysis</string>
+    <string name="get_share_pigeons_details">TXGP_PigeonBreed_PigeonID</string>
+    <string name="get_share_pigeons">TXGP_PigeonBreed_SearchBreedPigeon</string>
+    <string name="add_apply_share_hall">TXGP_PigeonBreed_Determine</string>
+    <string name="cancel_share_hall">TXGP_PigeonBreed_Cancel</string>
+    <string name="get_good_pigeon">TXGP_PigeonMotto_PigeonAll</string>
+    <string name="get_good_pigeon_count">TXGP_PigeonMotto_PigeonCount</string>
+    <string name="apply_add_good_pigeon">TXGP_PigeonMotto_PigeonAdd</string>
+    <string name="get_service_info">TXGP_GetUserInfo</string>
+    <string name="pay_service_order">TXGP_OpenService</string>
+    <string name="pay_renewal_service_order">TXGP_RenewService</string>
+    <string name="get_first_pigeon_match_league">TXGP_PigeonMatch_NewAnalysis</string>
+    <string name="get_home_count">TXGP_HomeTop_SelectCount</string>
+    <string name="get_foot_ring_state">TXGP_FootRing_JudgeState</string>
+    <string name="get_pigeon_by_footNumber_and_sex">TXGP_SelectFootPigeon</string>
+    <string name="get_blood_user_times">TXGP_XTS_GetCount</string>
+    <string name="add_blood_user_times">TXGP_XTS_SetCount</string>
+
+</resources>

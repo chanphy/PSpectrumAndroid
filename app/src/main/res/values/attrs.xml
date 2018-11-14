@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FamilyTreeView">
+        <attr name="TreeView_LineWidth" format="dimension" />
+        <attr name="TreeVie_LineColor" format="color" />
+        <attr name="TreeView_ShowGeneration" format="integer" />
+        <attr name="TreeView_MaxGeneration" format="integer" />
+        <attr name="TreeView_isHaveCurrent" format="boolean" />
+        <attr name="TreeView_isHorizontal" format="boolean" />
+        <attr name="TreeView_moveType">
+            <flag name="h" value="0x00000001" />
+            <flag name="v" value="0x00000002" />
+            <flag name="n" value="0x00000003" />
+        </attr>
+        <attr name="TreeView_isMiniModel" format="boolean" />
+        <attr name="TreeView_isPrintModel" format="boolean" />
+        <attr name="TreeView_isShowLine" format="boolean" />
+        <attr name="TreeView_isShowInfoModel" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleTitleView">
+        <attr name="simpleTitleView_DefaultTextColor" format="color" />
+        <attr name="simpleTitleView_PressTextColor" format="color" />
+        <attr name="simpleTitleView_image" format="reference|color" />
+        <attr name="simpleTitleView_press_image" format="reference|color" />
+        <attr name="simpleTitleView_image_size" format="dimension" />
+        <attr name="simpleTitleView_text_size" format="dimension" />
+        <attr name="simpleTitleView_text" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LineInputView">
+        <attr name="lineInputView_LeftTextGravity" format="boolean" />
+        <attr name="lineInputView_Weight" format="integer" />
+        <attr name="lineInputView_LeftTextColor" format="color" />
+        <attr name="lineInputView_RightTextColor" format="color" />
+        <attr name="lineInputView_ContentColor" format="color" />
+        <attr name="lineInputView_LeftTextSize" format="dimension" />
+        <attr name="lineInputView_RightTextSize" format="dimension" />
+        <attr name="lineInputView_LeftString" format="string" />
+        <attr name="lineInputView_RightString" format="string" />
+        <attr name="lineInputView_IsLookState" format="boolean" />
+        <attr name="lineInputView_isLeftBold" format="boolean" />
+        <attr name="lineInputView_DrawableRight" format="reference" />
+        <attr name="lineInputView_DrawableLeft" format="reference" />
+        <attr name="lineInputView_IsNotNull" format="boolean" />
+        <attr name="lineInputView_IsCanEdit" format="boolean" />
+        <attr name="lineInputView_Hint" format="string" />
+        <attr name="lineInputView_IsLeft" format="boolean" />
+        <attr name="lineInputView_isShowRightImage">
+            <flag name="gone" value="0x00000008" />
+            <flag name="visible" value="0x00000000" />
+            <flag name="invisible" value="0x00000004" />
+        </attr>
+        <attr name="lineInputView_isShowLineDivisions">
+            <flag name="gone" value="0x00000008" />
+            <flag name="visible" value="0x00000000" />
+            <flag name="invisible" value="0x00000004" />
+        </attr>
+        <attr name="lineInputView_isShowEditBoard" format="boolean" />
+        <attr name="rightTextBold" format="boolean" />
+        <attr name="leftTextBold" format="boolean" />
+        <attr name="lineInputView_InputType">
+            <flag name="none" value="0x00000000" />
+            <flag name="text" value="0x00000001" />
+            <flag name="textCapCharacters" value="0x00001001" />
+            <flag name="textCapWords" value="0x00002001" />
+            <flag name="textCapSentences" value="0x00004001" />
+            <flag name="textAutoCorrect" value="0x00008001" />
+            <flag name="textAutoComplete" value="0x00010001" />
+            <flag name="textMultiLine" value="0x00020001" />
+            <flag name="textImeMultiLine" value="0x00040001" />
+            <flag name="textNoSuggestions" value="0x00080001" />
+            <flag name="textUri" value="0x00000011" />
+            <flag name="textEmailAddress" value="0x00000021" />
+            <flag name="textEmailSubject" value="0x00000031" />
+            <flag name="textShortMessage" value="0x00000041" />
+            <flag name="textLongMessage" value="0x00000051" />
+            <flag name="textPersonName" value="0x00000061" />
+            <flag name="textPostalAddress" value="0x00000071" />
+            <flag name="textPassword" value="0x00000081" />
+            <flag name="textVisiblePassword" value="0x00000091" />
+            <flag name="textWebEditText" value="0x000000a1" />
+            <flag name="textFilter" value="0x000000b1" />
+            <flag name="textPhonetic" value="0x000000c1" />
+            <flag name="textWebEmailAddress" value="0x000000d1" />
+            <flag name="textWebPassword" value="0x000000e1" />
+            <flag name="number" value="0x00000002" />
+            <flag name="numberSigned" value="0x00001002" />
+            <flag name="numberDecimal" value="0x00002002" />
+            <flag name="numberPassword" value="0x00000012" />
+            <flag name="phone" value="0x00000003" />
+            <flag name="datetime" value="0x00000004" />
+            <flag name="date" value="0x00000014" />
+            <flag name="time" value="0x00000024" />
+        </attr>
+
+        <attr name="lineInputView_content_paddingLeft" format="dimension" />
+        <attr name="lineInputView_content_paddingRight" format="dimension" />
+
+        <attr name="lineInputView_line_paddingLift" format="dimension" />
+        <attr name="lineInputView_line_paddingRight" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="SearchTextView">
+        <attr name="searchTextView_is_in_top" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="InputBoxView">
+        <attr name="input_text_size" format="integer" />
+        <attr name="text_color" format="color" />
+        <attr name="text_hint_color" format="color" />
+        <attr name="text" format="string" />
+        <attr name="text_hint" format="string" />
+        <attr name="edit_max_input_line" format="integer" />
+        <attr name="is_mandatory" format="boolean" />
+        <attr name="input_high" format="dimension">
+
+        </attr>
+        <attr name="inputBoxView_tittle" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="gridPasswordView">
+        <attr name="gpvTextColor" format="color|reference" />
+        <attr name="gpvTextSize" format="dimension" />
+        <attr name="gpvLineColor" format="color" />
+        <attr name="gpvGridColor" format="color" />
+        <attr name="gpvLineWidth" format="dimension" />
+        <attr name="gpvPasswordLength" format="integer" />
+        <attr name="gpvPasswordTransformation" format="string" />
+        <attr name="gpvIsPassWord" format="boolean" />
+        <attr name="gpvPasswordType" format="enum">
+            <enum name="numberPassword" value="0" />
+            <enum name="textPassword" value="1" />
+            <enum name="textVisiblePassword" value="2" />
+            <enum name="textWebPassword" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="OrderTextView">
+        <attr name="orderTextView_title" format="string" />
+        <attr name="orderTextView_is_p" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MZBannerView">
+        <attr name="open_mz_mode" format="boolean" />
+        <attr name="canLoop" format="boolean" />
+        <attr name="indicatorPaddingLeft" format="dimension" />
+        <attr name="indicatorPaddingRight" format="dimension" />
+        <attr name="indicatorPaddingTop" format="dimension" />
+        <attr name="indicatorPaddingBottom" format="dimension" />
+        <attr name="indicatorAlign">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="middle_page_cover" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StatView">
+        <attr name="statView_title" format="string"/>
+        <attr name="statView_data_color" format="color"/>
+        <attr name="statView_other_color" format="color"/>
+        <attr name="statView_stat_w" format="dimension"/>
+        <attr name="statView_unit" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="FragmentTabView">
+        <attr name="normalTextColor" format="color"/>
+        <attr name="selectTextColor" format="color"/>
+        <attr name="selectTextSize" format="dimension"/>
+        <attr name="normalTextSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>

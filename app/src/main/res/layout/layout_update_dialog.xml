@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="179dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_update_bg" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="新版本 v0.0.1来啦"
+            android:textColor="#1A1A1A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="1.优化部分功能，修复部分BUG
+1.优化部分功能，修复部分BUG
+1.优化部分功能，修复部分BUG
+1.优化部分功能，修复部分BUG
+1.优化部分功能，修复部分BUG
+1.优化部分功能，修复部分BUG"
+            android:textColor="#262626"
+            android:textSize="13sp" />
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/color_white"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_btn"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:background="@color/color_white">
+
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:src="@mipmap/ic_update_btn" />
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="21dp"
+                android:text="0M"
+                android:textColor="#FFE1C8" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

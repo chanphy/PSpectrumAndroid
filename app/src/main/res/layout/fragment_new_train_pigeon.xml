@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.cpigeon.book.widget.LineInputListLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/normal_safe_distance"
+            android:paddingRight="@dimen/normal_safe_distance">
+
+            <com.cpigeon.book.widget.LineInputView
+                android:id="@+id/lvName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lineInputView_Hint="@string/text_pleas_input"
+                app:lineInputView_IsNotNull="true"
+                app:lineInputView_LeftString="@string/text_project_name"
+                app:lineInputView_isShowRightImage="invisible" />
+
+        </com.cpigeon.book.widget.LineInputListLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/normal_safe_distance"
+                android:paddingRight="@dimen/normal_safe_distance">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赛鸽列表"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/large_text_size" />
+
+
+                <ImageView
+                    android:id="@+id/imgAdd"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/ic_train_pigeon_add_pigeon" />
+
+
+            </RelativeLayout>
+
+            <include layout="@layout/include_line_view_layout" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/normal_safe_distance"
+                android:paddingRight="@dimen/normal_safe_distance" />
+
+            <TextView
+                android:id="@+id/tvOk"
+                style="@style/bottom_style"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/normal_safe_distance"
+                android:layout_marginLeft="@dimen/normal_safe_distance"
+                android:layout_marginRight="@dimen/normal_safe_distance"
+                android:text="@string/text_save"
+                android:textSize="@dimen/large_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+

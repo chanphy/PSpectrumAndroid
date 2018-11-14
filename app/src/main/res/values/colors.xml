@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题颜色-->
+    <color name="colorPrimary">#0080FF</color>
+
+    <color name="colorPrimaryDark">@color/gray</color>
+    <color name="colorAccent">@color/gray_low</color>
+    <color name="main_home_pop_bg">#baffffff</color>
+    <color name="color_white_80">#ccffffff</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black_30">#84000000</color>
+
+    <color name="color_gary">#a3a2a2</color>
+    <color name="color_text_color_gray">#808080</color>
+    <color name="color_text_cancel">#4D4D4D</color>
+    <color name="color_text_title">#4D4D4D</color>
+    <color name="color_text_can_click">#DCEDFF</color>
+    <color name="color_text_hint">#B3B3B3</color>
+    <color name="color_btn_bg_not_can_click">#85C2FF</color>
+    <color name="color_btn_border">#B3B3B3</color>
+    <color name="color_line">#bfbfbf</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_edit_border">#bfbfbf</color>
+
+    <color name="color_bg_window">#f5f5f5</color>
+    <color name="color_DDFBF8">#DDFBF8</color>
+    <color name="color_EEF8FF">#EEF8FF</color>
+
+    <color name="colorDarkGrey">#9C9C9C</color>
+    <color name="color_262626">#262626</color>
+    <color name="color_feedback_not_handle">#13B156</color>
+    <color name="color_bg_green">#0CB91D</color>
+    <color name="color_feedback_handled">#D90000</color>
+    <color name="color_count_add">#D90000</color>
+    <color name="color_order_price">#D90000</color>
+    <color name="color_text_red">#D90000</color>
+    <color name="color_bg_red">#E21F30</color>
+    <color name="color_text_red_2">#B31F20</color>
+
+
+    <color name="bg_line_weather_l">@color/colorPrimary</color>
+
+    <!--背景-->
+    <color name="color_bg_orange">#FFB288</color>
+    <color name="color_bg_deep_orange">#D45E15</color>
+    <color name="color_text_orange">#FF9A63</color>
+    <color name="color_bg_yellow">#F9B855</color>
+    <color name="color_bg_dcedff">#DCEDFF</color>
+
+
+    <!--按钮-->
+    <color name="state_enabled_false">#85C2FF</color>
+    <color name="color_book_male">#85C2FF</color>
+    <color name="color_book_female">#F5C3E4</color>
+    <color name="color_book_female_stroke">#F5C3E4</color>
+
+    <!--一般提示颜色-->
+    <color name="general_text_hint_color">#b3b3b3</color>
+    <!--一般字体颜色-->
+    <color name="general_text_color">#000000</color>
+    <color name="color_4c4c4c">#4c4c4c</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_010101">#010101</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_text_enabled_false">#DCEDFF</color>
+    <color name="color_feed_record_line">#CCCCCC</color>
+    <color name="color_CAE2FF">#CAE2FF</color>
+
+
+    <color name="bg_line_weather2">#e8e8e8</color>
+    <color name="bg_line_weather3_tv">#969696</color>
+    <color name="color_line_weather3_et_hint">#c2c2c2</color>
+    <color name="color_line_weather3_et">#000000</color>
+    <color name="color_match_order_text_color">#1F1F1F</color>
+    <color name="color_k_line_rank">#FF9A63</color>
+    <color name="color_k_line_speed">#40A0FF</color>
+    <color name="color_k_line_first_speed">#FF6ACC</color>
+
+
+    <color name="color_scale_yellow_data">#F9B855</color>
+    <color name="color_scale_yellow_other">#EED0A1</color>
+    <color name="color_scale_blue_data">#0080FF</color>
+    <color name="color_scale_blue_other">#C2D9F0</color>
+    <color name="color_scale_red_data">#F72BB1</color>
+    <color name="color_scale_red_other">#F5C3E4</color>
+
+
+    <!--第三方照相机-->
+    <color name="Black4">#121415</color>
+    <color name="Black5">#242125</color>
+    <color name="Black6">#313641</color>
+    <color name="White">#ffffff</color>
+    <color name="title_bg">#fafafa</color>
+    <color name="Transparent">#00000000</color>
+    <color name="short_video_red">#ff4747</color>
+    <color name="Gray">#eeeeee</color>
+    <color name="color_blue_shadow">#539cff</color>
+    <color name="color_yellow_shadow">#ee8a54</color>
+    <color name="color_text_home">#e7e7e7</color>
+
+
+</resources>
+

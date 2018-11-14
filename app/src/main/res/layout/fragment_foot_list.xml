@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/xreclyview_with_bottom_btn"/>
+
+    <RelativeLayout
+        android:id="@+id/menuLayoutLeft"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@color/white">
+
+        <com.cpigeon.book.widget.FiltrateListView
+            android:id="@+id/filtrate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
+
